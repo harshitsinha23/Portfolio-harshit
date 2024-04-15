@@ -1,0 +1,119 @@
+.introSection{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 64px;
+}
+
+.heading{
+    font-size: 72px;
+    color: white;
+    max-width: 460px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.aboutMe{
+    color: #949495;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 32px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.companyLink{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.sectionTag{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    color: #949495;
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.line{
+    height: 1px;
+    width: 36px;
+    background: white;
+    margin: 0px 12px 0px 12px;
+    transition: width .3s ease-in-out;
+}
+
+.sectionTag:hover{
+    color: white;
+    font-weight: 600;
+}
+
+.sectionTag:hover .line{
+    color: white;
+    width: 64px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 28px;
+}
+
+ .insta, .github{
+    color: white;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.insta, .github {
+    display: flex;
+    justify-items: center;
+    cursor: pointer;
+    margin-left: 24px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.icon{
+    margin-right: 12px;
+    margin-bottom: 4px;
+    height: 22px;
+    width: 22px;
+}
+
+.externalLinkIcon{
+    margin-left: 12px;
+    margin-top: 2px;
+    height: 18px;
+    width: 18px;
+}
+
+.resume{
+    border-radius: 36px;
+    border: 2px solid grey;
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.resumeText{
+    color: white;
+    font-family:  'Nunito', sans-serif; 
+    background: transparent;
+}
+
+.resumeText:hover{
+    
+    font-weight: bold;
+}

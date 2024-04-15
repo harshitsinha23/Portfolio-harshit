@@ -1,0 +1,18 @@
+*{
+  background: rgb(20,21,20);
+}
+
+.main {
+  display: flex;
+}
+
+.intro{
+  position: fixed;
+}
+
+.description{
+  width: 100%;
+  margin-left: 700px;
+  overflow-y: scroll;
+  overflow-x: auto;
+}

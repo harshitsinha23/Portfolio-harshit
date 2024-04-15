@@ -1,0 +1,117 @@
+.projectList{
+    display: flex;
+    flex-direction: column;
+    margin-top: 76px;
+    margin-left: 80px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-decoration: none;
+    width: 75%;
+    background-color: rgb(33,32,35);
+    border-radius: 4px;
+    padding: 36px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    margin-left: 36px;
+    transition: .3s 
+}
+.projectList ,.card:hover, .sectionCard:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.codeLanguage, .projectTitle, .projectDescription,.link{
+    background: inherit;
+}
+
+.codeLanguage{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 8px;
+}
+
+.projectTitle{
+    color: white;
+    margin-bottom: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+
+}
+
+.projectDescription{
+    color: #949495;
+    background: inherit;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 8px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.bottomLinks{
+    background: transparent;
+    display: flex;
+}
+
+.externalLinkIcon{
+    background: transparent;
+    margin-right: 12px;
+    margin-left: 4px;
+}
+
+.educationList{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 136px;
+    width: 100%;
+}
+
+.leftSectionCard{
+    margin-top: 44px;
+    width: 35%;
+}
+
+.rightSectionCard{
+    margin-top: 140px;
+    margin-left: 20px;
+    width: 35%;
+}
+
+.sectionCard{
+    background-color: rgba(32,32,34);
+    border-radius: 4px;
+    padding: 36px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    height: 120px;
+    transition: .3s;
+}
+
+.work, .time, .company {
+    color: white;
+    background: transparent;
+    margin-bottom: 8px;
+    font-family: 'Nunito', sans-serif;
+}
+.company{
+    font-size: 24px;
+}
+
+.time{
+    font-size: 14px;
+    color: #949495;
+    font-family: 'Inconsolata', monospace;
+}
+
+.work{
+    color: #949495;
+    font-weight: bold;
+}
